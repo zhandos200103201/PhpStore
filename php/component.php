@@ -1,5 +1,5 @@
 <?php
-    function component($name, $price, $link, $id){
+    function menclothes($name, $price, $link, $id){
         echo "<div class=\"col-md-3 col-sm-6 my-3 my-md-0\">
             <form action=\"index.php\" method=\"post\">
                 <div class=\"card shadow\">

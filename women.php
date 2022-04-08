@@ -14,7 +14,7 @@ if (isset($_POST['add'])){
 
         if(in_array($_POST['id'], $item_array_id)){
             echo "<script>alert('Product is already added in the cart..!')</script>";
-            echo "<script>window.location = '/PhpOnlineStore/index.php/'</script>";
+            echo "<script>window.location = '/PhpOnlineStore/women.php/'</script>";
         }else{
 
             $count = count($_SESSION['cart']);
@@ -49,14 +49,14 @@ if (isset($_POST['add'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Online Store</title>
+    <title>For women</title>
 </head>
 <body>
 <?php require "php/header.php" ?>
   <div class="container">
         <div class="row text-center py-5">
             <?php
-               $result = $database->getData('Male');
+               $result = $database->getData('Female');
                while($row = mysqli_fetch_assoc($result)){
                 menclothes($row['product_name'],$row['product_price'],$row['product_image'],$row['id']);
                }

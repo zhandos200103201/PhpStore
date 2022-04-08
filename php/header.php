@@ -1,10 +1,10 @@
 <div class="container">
 <header class="d-flex justify-content-center py-3">
   <ul class="nav nav-pills">
-    <li class="nav-item"><a href="/PhpOnlineStore/index.php/" class="nav-link active" aria-current="page">Home</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+    <li class="nav-item"><a href="/PhpOnlineStore/index.php/" class="nav-link active" aria-current="page">For men</a></li>
+    <li class="nav-item"><a href="/PhpOnlineStore/women.php/" class="nav-link">For women</a></li>
+    <li class="nav-item"><a href="/PhpOnlineStore/kids.php/" class="nav-link">For kids</a></li>
+    <li class="nav-item"><a href="/PhpOnlineStore/unisex.php/" class="nav-link">Unisex</a></li>
     <li class="nav-item"><a href="/PhpOnlineStore/about.php/" class="nav-link">About</a></li>
     <!-- <i class="fas fa-shopping-cart"></i> Cart -->
     
