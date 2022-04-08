@@ -57,9 +57,11 @@ if (isset($_POST['remove'])){
                                     }
                                 }
                             }
-                        }else{
-                            echo "<h5>Cart is Empty</h5>";
+                        } 
+                        if ($total == 0){
+                            echo "<h5>Cart is empty</h5>";
                         }
+ 
 
                     ?>
 
@@ -91,6 +93,7 @@ if (isset($_POST['remove'])){
                             <h6>$<?php
                                 echo $total;
                                 ?></h6>
+                                <br>
                         </div>
                     </div>
                 </div>
